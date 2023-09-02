@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
 
-dataset = pd.read_csv('E:\\Web\\IA\\03_Energy-Efficiency_Dataset.csv')
+dataset = pd.read_csv('03_Energy-Efficiency_Dataset.csv')
 print("HOLA")
 
 print('ENERGY EFFICIENCY DATASET - HEAD: \n', dataset.head(5))
